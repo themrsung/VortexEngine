@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c40be5-c112-4eca-8f23-6907bc6f1a94" name="Changes" comment="asd">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/Double3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/DoublePointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/DoubleVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/MathVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/Vector3.java" afterDir="false" />
+    <list default="true" id="d4c40be5-c112-4eca-8f23-6907bc6f1a94" name="Changes" comment="asddd">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/Double4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/Quaternion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/Vector4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegasus/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegasus/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pegasus/number/Vector3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegasus/number/Vector3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,11 +85,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713431452682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="asddd">
+      <option name="closed" value="true" />
+      <created>1713435155332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713435155332</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="asddd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asddd" />
   </component>
 </project>

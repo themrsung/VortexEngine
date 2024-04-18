@@ -15,6 +15,41 @@ public class Vector3 extends Double3 implements MathVector<Vector3> {
     private static final long serialVersionUID = 0L;
 
     /**
+     * The zero vector.
+     */
+    public static final Vector3 ZERO = new Vector3(0, 0, 0);
+
+    /**
+     * The positive X unit vector.
+     */
+    public static final Vector3 POSITIVE_X = new Vector3(1, 0, 0);
+
+    /**
+     * The positive Y unit vector.
+     */
+    public static final Vector3 POSITIVE_Y = new Vector3(0, 1, 0);
+
+    /**
+     * The positive Z unit vector.
+     */
+    public static final Vector3 POSITIVE_Z = new Vector3(0, 0, 1);
+
+    /**
+     * The negative X unit vector.
+     */
+    public static final Vector3 NEGATIVE_X = new Vector3(-1, 0, 0);
+
+    /**
+     * The negative Y unit vector.
+     */
+    public static final Vector3 NEGATIVE_Y = new Vector3(0, -1, 0);
+
+    /**
+     * The negative Z unit vector.
+     */
+    public static final Vector3 NEGATIVE_Z = new Vector3(0, 0, -1);
+
+    /**
      * Creates a new vector.
      * @param x The X value of this vector
      * @param y The Y value of this vector
@@ -238,5 +273,13 @@ public class Vector3 extends Double3 implements MathVector<Vector3> {
         var dz = Math.abs(z - other.z);
 
         return dx + dy + dz;
+    }
+
+    /**
+     * Returns a quaternion where the scalar value is zero and the vector parts are assigned from this vector.
+     * @return The created quaternion
+     */
+    public Quaternion quaternion() {
+        return new Quaternion(0, this);
     }
 }
